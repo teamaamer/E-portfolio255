@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Interior Design &amp; Decoration — 255</title>
+<meta name="description" content="Commercial interiors, offices, retail spaces, and branded customer environments.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/style.css">
+</head>
+<body>
+<nav class="nav" aria-label="Sections"><div class="wrap">
+  <a class="nav__logo" href="../index.html" aria-label="255, home"><img src="../assets/img-001.png" width="700" height="248" alt="255" decoding="async"></a>
+  <ul class="nav__links"><li><a href="../index.html#services">All services</a></li><li><a href="../index.html#contact">Contact</a></li></ul>
+</div></nav>
+<header class="pagehead band--orange">
+  <div class="wrap">
+    <a class="crumb" href="../index.html#services">← All services</a>
+    <span class="num">12 — Service</span>
+    <h1>Interior Design &amp; Decoration</h1>
+    <p>Commercial interiors, offices, retail spaces, and branded customer environments.</p>
+    
+  </div>
+</header>
+<section class="section">
+  <div class="wrap">
+    <h2 style="font-size:clamp(28px,4vw,44px)">Our work</h2>
+    <div class="gallery" style="margin-top:28px"><div><button type="button" class="zoom" aria-label="Enlarge: Interior Design &amp; Decoration by 255"><img src="../assets/img-397.jpg" alt="Interior Design &amp; Decoration by 255" loading="lazy" decoding="async"></button></div><div><button type="button" class="zoom" aria-label="Enlarge: Interior Design &amp; Decoration by 255"><img src="../assets/img-398.jpg" alt="Interior Design &amp; Decoration by 255" loading="lazy" decoding="async"></button></div><div><button type="button" class="zoom" aria-label="Enlarge: Interior Design &amp; Decoration by 255"><img src="../assets/img-399.jpg" alt="Interior Design &amp; Decoration by 255" loading="lazy" decoding="async"></button></div><div><button type="button" class="zoom" aria-label="Enlarge: Interior Design &amp; Decoration by 255"><img src="../assets/img-400.jpg" alt="Interior Design &amp; Decoration by 255" loading="lazy" decoding="async"></button></div></div>
+    <div class="callout callout--orange" style="margin-top:36px">Ready to talk? Tell us about your business and we’ll come back with a clear plan.</div>
+    <div class="ctas"><a class="btn btn--yellow" href="https://wa.me/972566255255">Message us on WhatsApp</a><a class="btn btn--white" style="background:var(--paper-soft)" href="mailto:255@255.ps">Email 255@255.ps</a></div>
+    <h3 style="margin-top:56px">More services</h3>
+    <ul class="other"><li><a href="social-media.html">Social Media Management</a></li><li><a href="visual-branding.html">Visual Branding</a></li><li><a href="seo.html">SEO Services</a></li><li><a href="paid-advertising.html">Paid Advertising</a></li><li><a href="marketing-strategy.html">Marketing Strategy</a></li><li><a href="website-ecommerce.html">Website &amp; E-Commerce Development</a></li><li><a href="video-production.html">Video Production</a></li><li><a href="ai-content-video.html">AI Content &amp; Video Production</a></li><li><a href="content-creation.html">Content Creation</a></li><li><a href="graphic-print-design.html">Graphic &amp; Print Design</a></li><li><a href="whatsapp-marketing.html">WhatsApp Business Marketing</a></li><li><a href="marketing-consultation.html">Marketing Consultation</a></li><li><a href="email-marketing.html">Email Marketing</a></li><li><a href="sms-marketing.html">SMS Marketing</a></li><li><a href="public-relations.html">Public Relations</a></li><li><a href="business-platform.html">255 Business Platform</a></li></ul>
+  </div>
+</section>
+<div class="lb" id="lb" role="dialog" aria-modal="true" aria-label="Enlarged image">
+  <button type="button" class="lb__close" id="lbClose" aria-label="Close">×</button>
+  <img id="lbImg" alt="">
+</div>
+
+<script>
+(function(){
+  var lb=document.getElementById('lb'), im=document.getElementById('lbImg'), last=null;
+  function open(src,alt,btn){ im.src=src; im.alt=alt; lb.setAttribute('open',''); last=btn; document.body.style.overflow='hidden'; document.getElementById('lbClose').focus(); }
+  function close(){ lb.removeAttribute('open'); im.src=''; document.body.style.overflow=''; if(last) last.focus(); }
+  document.addEventListener('click',function(e){
+    var b=e.target.closest('.zoom'); if(b){ var i=b.querySelector('img'); open(i.src,i.alt,b); return; }
+    if(e.target===lb||e.target.id==='lbClose') close();
+  });
+  document.addEventListener('keydown',function(e){ if(e.key==='Escape'&&lb.hasAttribute('open')) close(); });
+})();
+</script>
+</body>
+</html>
